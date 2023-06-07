@@ -1,0 +1,153 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "LATTICE_PATH": "C:/lscc/iCEcube2.2020.12/sbt_backend/bin/win32/opt",
+    "QUARTUS_PATH": "C:/intelFPGA_lite/20.1/quartus/bin64",
+    "vhdl.formatter.align.all": true,
+    "vhdl.formatter.case.keyword": "LowerCase",
+    "vhdl.formatter.case.typename": "LowerCase",
+    "files.associations": {
+        "*.ui": "xml",
+        "*.qrc": "xml",
+        "cstdio": "cpp",
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "new": "cpp",
+        "functional": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "chrono": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "condition_variable": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "ranges": "cpp",
+        "stdexcept": "cpp",
+        "stop_token": "cpp",
+        "streambuf": "cpp",
+        "thread": "cpp",
+        "cinttypes": "cpp",
+        "opt.h": "c",
+        "debug.h": "c",
+        "ostream": "cpp",
+        "stm32h7xx.h": "c",
+        "stm32h753xx.h": "c",
+        "main.h": "c",
+        "stm32h7xx_hal_def.h": "c",
+        "stm32h7xx_hal.h": "c",
+        "debug.hpp": "c",
+        "segger_rtt.h": "c",
+        "charconv": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "iomanip": "cpp",
+        "istream": "cpp",
+        "span": "cpp",
+        "sstream": "cpp",
+        "format": "cpp",
+        "ios": "cpp",
+        "locale": "cpp",
+        "queue": "cpp",
+        "semaphore": "cpp",
+        "xfacet": "cpp",
+        "xhash": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xlocbuf": "cpp",
+        "xlocinfo": "cpp",
+        "xlocmes": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp",
+        "xmemory": "cpp",
+        "xstddef": "cpp",
+        "xstring": "cpp",
+        "xtr1common": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "numbers": "cpp",
+        "iostream": "cpp",
+        "complex": "cpp"
+    },
+    "Lua.diagnostics.globals": [
+        "kB",
+        "MB",
+        "Place",
+        "Align",
+        "DefineHidden",
+        "Define",
+        "NO_LOAD",
+        "ARM_ATTRIBUTES",
+        "ReadFile",
+        "WriteFile",
+        "Extend",
+        "InsertBefore"
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "markup.other.log.error",
+                "settings": {
+                    "foreground": "#FF0000"
+                }
+            },
+            {
+                "scope": "markup.other.log.warn",
+                "settings": {
+                    "foreground": "#ffb700"
+                }
+            },
+            {
+                "scope": "markup.other.log.info",
+                "settings": {
+                    "foreground": "#4d9455"
+                }
+            },
+            {
+                "scope": "markup.other.log.debug",
+                "settings": {
+                    "foreground": "#888585"
+                }
+            },
+            {
+                "scope": "markup.other.log.highlight",
+                "settings": {
+                    "foreground": "#19ff04"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+buildType:
+  default: debug
+  choices:
+    debug:
+      short: Debug
+      long: Debug
+      buildType: Debug
+    release:
+      short: Release
+      long: Release
+      buildType: Release
+    releaseWithDebugInfo:
+      short: DebugRelease
+      long: DebugRelease
+      buildType: RelWithDebInfo
+
+part:
+  default: "STM32G473CE"
+  choices:
+    "STM32G473CE":
+      short: "STM32G473CE"
+      long: "STM32G473CE"
+      settings:
+        CFXS_PART: "STM32G473CE"
+        CFXS_CORE_FREQUENCY: 170000000
+        LINKERSCRIPT: "STM32G473CE"
+        GENERATED_FILES: "STM32G473CE"

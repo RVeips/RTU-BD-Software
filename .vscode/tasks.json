@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "ninja",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "cwd": "${workspaceRoot}/build"
+            },
+            "problemMatcher": {
+                "base": "$gcc",
+                "fileLocation": "absolute"
+            }
+        },
+        {
+            "label": "Generate linker file STM32G473CE",
+            "type": "shell",
+            "command": "lua53",
+            "args": [
+                "${workspaceRoot}/CMake/Scripts/LinkerGen/LinkerGen.lua",
+                "${workspaceRoot}/CMake/Scripts/LinkerGen",
+                "${workspaceRoot}/ImpedanceAnalyzer/cfg/STM32G473CE.lua",
+                "${workspaceRoot}/ImpedanceAnalyzer/cfg/LinkerScript.ld",
+            ],
+            "group": "test"
+        },
+    ]
+}

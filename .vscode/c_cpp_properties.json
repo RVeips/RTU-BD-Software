@@ -1,0 +1,19 @@
+{
+    "version": 4,
+    "env": {
+        "ProjectName": "CFXS_ARM_Dev",
+        "ProjectRoot": "${workspaceFolder}/${ProjectName}",
+        "ProjectVendorRoot": "${ProjectRoot}/vendor"
+    },
+    "configurations": [
+        {
+            "name": "GCC",
+            "cStandard": "c11",
+            "cppStandard": "c++23",
+            //"compilerPath": "D:\\GNU Arm Embedded Toolchain\\10 2020-q4-major\\bin\\arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "gcc-arm",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ]
+}
